@@ -1,0 +1,25 @@
+<nav class="navbar p-3 navbar-light">
+  <div class="container-fluid">
+    <%= link_to "<", groups_path, class: "text-decoration-none fs-3 px-2 text-white" %>
+    <h3>Categories</h3>
+    <%= render "layouts/menu" %>
+  </div>
+</nav>
+
+<section id="groups" class="container-fluid">
+  <%= render "layouts/alerts" %>
+
+  <div class="container my-5">
+    <% @groups.each do |group| %>
+      <%= link_to edit_group_path(group), class: "text-decoration-none text-dark" do %>
+        <%= render group %>
+      <% end %>
+      <div class="text-end mb-3">
+        <%= button_to "Delete", group, method: :delete, class: "btn btn-outline-danger" %>
+      </div>
+    <% end %>
+  </div>
+</section>
+
+<div>
+</div>
