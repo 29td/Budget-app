@@ -8,7 +8,7 @@
 https://masivebudget.herokuapp.com/
 
 ### Video
-
+https://www.loom.com/share/efdd0bef9ef4482787d6f2771cc25f42
 
 ### Additional Tools
 > rubocop
@@ -80,6 +80,6 @@ This project is part module 5 in the Microverse study program.
 Thanks to the Microverse team for the great curriculum.
 Thanks to Code Reviewers for the insightful feedback.
 A great thanks to My coding partners, morning session team, and standup team Partners for their contributions.
-Original design idea by Gregoire Vella on Behance, in association with the Creative Commons license of the design of the design.
+Original design idea by [Gregoire Vella on Behance](https://www.behance.net/gregoirevella), in association with the  [Creative Commons license](https://creativecommons.org/licenses/by-nc/4.0/)of the design of the design.
 ### 📝 License
 This project is MIT licensed.
