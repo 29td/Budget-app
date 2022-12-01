@@ -1,0 +1,13 @@
+<div id="<%= dom_id group %>" class="category mb-3 d-flex border">
+  <div class="icon p-2">
+    <%= group_avatar(group.image) %>
+  </div>
+  <div class="flex-fill p-2">
+    <div class="d-flex justify-content-between">
+      <p><%= group.name %></p>
+      <b>$<%= group.total_records_amount %></b>
+    </div>
+    <p class="text-secondary">Transactions: <%= group.total_records %></p>
+    <p class="text-secondary"><%= group.created_at.strftime('%d %b %Y') %></p>
+  </div>
+</div>

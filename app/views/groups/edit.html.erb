@@ -1,0 +1,9 @@
+<nav class="navbar p-3 mb-5 navbar-light">
+  <div class="container-fluid">
+    <%= link_to "<", :back, class: "text-decoration-none fs-3 px-2 text-white" %>
+    <h3>Edit Category</h3>
+    <%= render "layouts/menu" %>
+  </div>
+</nav>
+
+<%= render "form", group: @group %>

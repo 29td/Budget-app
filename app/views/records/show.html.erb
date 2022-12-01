@@ -1,0 +1,14 @@
+<nav class="navbar p-3 navbar-light">
+  <div class="container-fluid">
+    <%= link_to "<", :back, class: "text-decoration-none fs-3 px-2 text-white" %>
+    <h3>Transaction</h3>
+    <%= render "layouts/menu" %>
+  </div>
+</nav>
+<div class="container my-5">
+  <%= render @record %>
+
+  <div class="text-end mb-3">
+    <%= button_to "Delete", group_record_url(@record.group_id, @record.id), method: :delete, class: "btn btn-outline-danger" %>
+  </div>
+</div>

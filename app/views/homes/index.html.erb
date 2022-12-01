@@ -1,0 +1,18 @@
+<section class="container-fluid p-0 sectionn">
+    <div class="home d-flex flex-column justify-content-between">
+        <div class="text-center logo_wrapper">
+            <div>
+                <%= image_tag('masive.png', class: 'logo thumbnail icon-img') %>
+            </div>
+            <h1 class="logo-text">Masive</h1>
+        </div>
+        <div class="button-Wrapper">
+            <div class="text-center border border-white">
+                <%= link_to "Log in", new_user_session_path, class: "text-decoration-none p-2  text-white new-btn" %>
+            </div>
+            <div class="text-center border border-white">
+                <%= link_to "Sign up", new_user_registration_path, class: "text-decoration-none p-2 text-white new-btn" %>
+            </div>
+        </div>
+    </div>
+</section>

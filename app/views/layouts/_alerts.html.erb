@@ -1,0 +1,7 @@
+<% if notice || alert %>
+    <div class="container mt-5 col-12 text-center alert alert-success alert-dismissible fade show" role="alert">
+        <p class="notice m-0"><%= notice %></p>
+        <p class="alert m-0"><%= alert %></p>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+<% end %>
