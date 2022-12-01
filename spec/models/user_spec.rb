@@ -6,9 +6,9 @@ RSpec.describe User, type: :model do
     @user = User.new(name: 'test', email: 'test@gmail.com')
   end
 
-  describe 'user validation tests' do
-    it 'validates the presence of the name' do
-      @user.name = nil
+  describe 'check for validations' do
+    it 'not valid without name' do
+      subject.name = ''
       expect(@user).to_not be_valid
     end
 

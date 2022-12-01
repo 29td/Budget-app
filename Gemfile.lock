@@ -227,6 +227,7 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
+    sqlite3 (1.5.4-x64-mingw-ucrt)
     stimulus-rails (1.2.0)
       railties (>= 6.0.0)
     thor (1.2.1)
@@ -281,6 +282,7 @@ DEPENDENCIES
   selenium-webdriver
   spring
   sprockets-rails
+  sqlite3
   stimulus-rails
   turbo-rails
   tzinfo-data
